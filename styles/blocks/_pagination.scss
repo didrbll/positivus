@@ -5,14 +5,14 @@
     @include square(24px);
 
     display: block;
-    background: url("../../images/icons/star.svg") no-repeat center;
+    background: url("../images/icons/star.svg") no-repeat center;
 
     @include hover {
       color: var(--color-accent);
     }
 
     &.is-active {
-      background-image: url("../../images/icons/star-active.svg");
+      background-image: url("../images/icons/star-active.svg");
     }
   }
 }
